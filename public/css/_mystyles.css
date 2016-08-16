@@ -1,0 +1,353 @@
+/* Edited By: Amrita Singh
+ * Date: 8/5/16
+ * This is used for the home page. This is the black background in the landing page / format.
+ */
+.container-full {
+margin: 0 auto;
+width: 100%;
+min-height:100%;
+background-color:black;
+color:#eee;
+overflow:hidden;
+}
+
+/* Edited By: Amrita Singh
+ * Date: 7/27/16
+ * This is the button that adds items to the user's wish list. The button is a shade of yellow (#ffff33). The text inside
+ * and the border is black.
+ */
+.btn.btn-success
+{
+    float: right;
+    background-color: #ffff33;
+    color: black;
+}
+
+/* Edited By: Amrita Singh
+ * Date: 7/27/16
+ * When the user clicks on the button, the button turns a darker shade of yellow (#e6e600). The text inside and the border
+ * is still black.
+ */
+.btn.btn-success:active
+{
+    background-color:#e6e600;
+    color:black;
+}
+
+/*Edited By: Amrita Singh
+  Date: 7/27/16
+  This aligns the message to the center of the page.
+*/
+.well.well-sm
+{
+    text-align: center;
+}
+
+.thumbnail{
+    height: 320px;
+}
+
+.img-thumbnail{
+    height: 200px;
+}
+
+.btn-select {
+    position: relative;
+    width: 100%;
+}
+
+.btn-select ul {
+    display: none;
+    background-color: #DCDCDC; /**/
+    color: black;
+    clear: both;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: none !important;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 33px;
+    z-index: 999;
+}
+
+.btn-select ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.btn-select ul li.selected {
+    color: white;
+}
+
+/* Default Start */
+.btn-select.btn-default:hover, .btn-select.btn-default:active, .btn-select.btn-default.active {
+    border-color: #ccc;
+}
+
+.btn-select.btn-default ul li.selected {
+    background-color: #ccc;
+}
+
+.btn-select.btn-default:hover, .btn-select.btn-default.active {
+    background-color: #e6e6e6;
+}
+
+
+/*manage account dropdown*/
+body {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+/*
+ .footer {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+ 	background-color: rgb(66, 139, 202);
+ 	border-style: hidden;
+
+ }
+
+ .hiddenBorder {
+ 	border-style: hidden;
+ }
+ */
+ /* Sticky footer styles
+ -------------------------------------------------- */
+ 
+ html {
+   position: relative;
+   min-height: 100%;
+ }
+ body {
+   /* Margin bottom by footer height */
+	position: relative;
+	margin-bottom: 0px;
+ }
+
+
+ .navbar-brand{
+     float: left;
+     margin: -20px 15px 15px 0px;
+ }
+
+ .buy-button{
+	 padding: 8px;
+	 float: left;
+	 min-width: 100px;
+ }
+ 
+ .container-fluid{
+	position: relative;
+	padding-top: 30px;
+	/*padding-bottom: 30px;*/
+ }
+ 
+ .nav-warning{
+	color: red;
+	background-color: yellow;
+	padding: 5px;
+	font-size: 15px;
+ }
+ 
+ .main{
+	 position: relative;
+	 margin-top: 50px;
+ }
+ 
+ .box{
+	padding-top: 45px;  
+ }
+ 
+ .footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	/* margin: 20px; */
+	/* padding-top: 0px; */
+	overflow: auto;
+	height: auto;
+	background-color:  #000000; /*#f5f5f5*/  
+	z-index:1001;
+	color: white;
+ }
+ 
+ .navbar-left{
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+ }
+ 
+ .header-style{
+	max-height:100px;
+	min-height:100px;
+ }
+
+ .price-filter-stype{
+	 border-style: solid none none none;
+	 border-top-color: #428bca;
+ }
+ 
+ .additem-text-input-style{
+	width: 60%;
+	min-height: 30px;
+	font-size:15px;
+ }
+ 
+ .additem-price-text-input-style{
+	width: 150px;
+	min-height: 30px;
+	font-size:15px;
+ }
+ 
+ .additem-textarea-input-style{
+	width: 60%;
+	font-size:15px;
+ }
+ 
+ .additem-category-dropdown-option-style{
+	/*width: 50%;*/
+	border-style: solid;
+	border-color: #DCDCDC;
+	background-color:#DCDCDC;
+ }
+ .additem-topborder-style{
+	border-style: dashed none none none;
+	border-top-color: #DCDCDC;
+	padding: 10px 0px 10px 0px;
+ }
+ 
+ .h-additem-style{
+	 min-width:50px;
+	 max-width:50px;
+ }
+ 
+ .additem-label-info-style{
+	/*text-align:center;*/
+	/*padding-left:5%;*/
+	padding-bottom:10px;
+	text-transform: uppercase;
+	font-weight: bold;
+ }
+ 
+ .additem-label2-info-style{
+	padding: 15px;
+ }
+ 
+.additem-button-styles{
+	/*margin-top: 10px;
+	margin-bottom: 25px;*/
+	min-height: 20px;
+	margin: 10px 0px 25px 0px;
+	padding-right: -16px;
+	float: left !important;
+}
+
+.row{
+	margin-top: 10px;
+}
+
+.filtering-style{
+	padding: 20px;
+}
+
+.seller-buyer-dialog-header-style{
+	border-bottom: solid;
+	border-bottom-color: #DCDCDC;
+	background-color:#d9edf7;
+	color:#31708f;
+}
+
+.seller-buyer-dialog-body-style{
+	padding: 15px;
+	font-size: 20px;
+	background-color: white;
+}
+.seller-buyer-dialog-footer-style{
+	background-color:white;
+}
+
+.seller-buyer-dialog-button-style{
+	border-radius: 5px;
+	min-width:100px;
+}
+
+.seller-buyer-dialog-congrats-style{
+	background-color:#449d44;
+}
+
+.registration-button-style{
+	border-color:white;
+}
+
+.view-item-back-button-styles{
+	float: left;
+	padding: 5px;
+	min-height: 30px;
+	min-width: 100px;
+	background-color: black;
+	border-color: blakc;
+	color: white;
+	/*
+	#428bca
+	#87ceeb
+	*/
+}
+
+.view-item-back-row-styles{
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.view-profile-description-style{
+	min-height: 250px;
+	padding-top: 20px;
+}
+ .testing-style{
+	 
+ }
