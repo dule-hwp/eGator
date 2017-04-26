@@ -1,4 +1,3 @@
-Home Page
-http://sfsuswe.com/~su16g05/eGator/
-
 # eGator
+
+SFSU student project for class CS848.
